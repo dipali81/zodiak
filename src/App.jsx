@@ -13,7 +13,8 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <Router>
-      <div className="max-h-screen  overflow-y-hidden">
+      {/* <div className="max-h-screen  overflow-y-hidden"> */}
+      <div className="">
         <Header />
         <div className="">
           <Routes>
